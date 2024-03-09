@@ -1,0 +1,18 @@
+// Base styles for HTML elements, such as headings, paragraphs, lists, etc.
+
+body {
+    margin: 0;
+}
+
+.bg {
+    background-image: linear-gradient(to bottom, #03060d, #0b111a, #0f1925, #0f2030, #0d273c, #0c304a, #093a59, #034468, #03537e, #036295, #0372ac, #0482c4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    .bg-size {
+        height: 10vh;
+    }
+}
