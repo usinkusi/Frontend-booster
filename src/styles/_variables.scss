@@ -1,1 +1,43 @@
 // Global variables, such as colors, font sizes, breakpoints, and other reusable values
+
+@font-face {
+    font-family: "Montserat";
+    src: url("../assets/fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+@font-face {
+    font-family: "AstroSpace";
+    src: url("../assets/fonts/AstroSpace/AstroSpace-0Wl3o.otf");
+}
+
+body {
+    margin: 0;
+    font-family: "Montserat", sans-serif !important;
+}
+
+
+// COLORS
+
+$white: rgb(255, 255, 255);
+$black: #000;
+
+$black-10: #03060d;
+$blue-10: #03314c;
+$blue-20: #0482c4;
+$aquamarine-10: #95f2d9;
+$aquamarine-20: #1cfeba;
+//Aquamarine-20 generic gradient
+$aquamarine-30: #00D9BF;
+$aquamarine-40: #00B3B6;
+$aquamarine-50: #008EA1;
+$aquamarine-60: #1D6A80;
+$aquamarine-70: #2F4858;
+
+
+
+
+// FONT
+
+$w-100: 100;
+$w-bold: 600;
+$heavy-bold: 900;
